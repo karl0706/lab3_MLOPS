@@ -35,3 +35,4 @@ def test_get_user_name_from_input_blank(monkeypatch):
     monkeypatch.setattr('sys.stdin', io.StringIO('Karl99'))
     assert get_user_name_from_input() == 'Karl99'
 
+# check push workflow
